@@ -1,5 +1,8 @@
-.App-header {
+body {
   margin: 0 auto;
+}
+
+.App-header {
   font-family: sans-serif;
   text-align: center;
   background-color: darkslategrey;
@@ -18,6 +21,7 @@
   display: flex;
   padding: 10px;
   border-radius: 25px 25px 0 0;
+  color: whitesmoke;
 }
 
 .card img {
@@ -38,4 +42,5 @@
   background-color: lightgrey;
   padding: 10px;
   border-radius: 0 0 25px 25px;
+  color: darkslategray;
 }
