@@ -1,0 +1,38 @@
+.App-header {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: darkslategrey;
+  padding: 10px 10px;
+  color: whitesmoke;
+}
+
+.card {
+  display: inline-block;
+  margin: 10px;
+}
+
+.card-heading {
+  background-color: darkslategrey;
+  font-size: 1em;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card img {
+  margin: 30px 20px 0 0;
+  float: right;
+}
+
+.circle-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.card-body {
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
