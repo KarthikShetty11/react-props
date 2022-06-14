@@ -1,13 +1,15 @@
 .App-header {
-  margin: 0;
+  margin: 0 auto;
   font-family: sans-serif;
   text-align: center;
   background-color: darkslategrey;
   padding: 10px 10px;
   color: whitesmoke;
+  border-radius: 25px;
 }
 
 .card {
+  border-radius: 25px;
   display: inline-block;
   margin: 10px;
 }
@@ -17,7 +19,6 @@
   font-size: 1em;
   display: flex;
   padding: 10px;
-  border-radius: 10px 10px 0 0;
 }
 
 .card img {
@@ -34,5 +35,4 @@
 .card-body {
   background-color: lightgrey;
   padding: 10px;
-  border-radius: 0 0 10px 10px;
 }
