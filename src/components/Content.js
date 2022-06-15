@@ -1,3 +1,5 @@
+import Details from "./Details";
+
 function Content(props) {
   return (
     <div className="card">
@@ -7,8 +9,8 @@ function Content(props) {
       </div>
 
       <div className="card-body">
-        <p>{props.address}</p>
-        <p>{props.phone}</p>
+        <Details detailInfo={props.address} />
+        <Details detailInfo={props.phone} />
       </div>
     </div>
   );
