@@ -23,7 +23,11 @@ body {
   border-radius: 25px 25px 0 0;
   color: whitesmoke;
 }
-
+.card-key {
+  width: auto;
+  height: auto;
+  color: red;
+}
 .card img {
   position: relative;
   top: 60px;
